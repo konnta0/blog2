@@ -7,10 +7,10 @@
 ダッシュボードから `Workers & Pages` を選択
 カスタムドメインを設定したいプロジェクトを選択する
 `Custom Domains` のタブから設定を開始する
-![](/img/user/Engineering/Cludflare/Cloudflare Pages にカスタムドメインを設定する.png)
+![](/img/user/Engineering/Cludflare/0.png)
 
 設定したいカスタムドメインを入力して `Continue`
-![](/img/user/Engineering/Cludflare/Cloudflare Pages にカスタムドメインを設定する-1.png)
+![](/img/user/Engineering/Cludflare/1.png)
 
 今回は Cloudflare DNS を利用する
 `Begin DNS transfer` を選択
