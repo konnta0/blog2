@@ -7,7 +7,7 @@
 # 概要
 .NET のテスト用のモックライブラリ
 公式サイトはこちら  https://nsubstitute.github.io/
-2024/12 現在の最新は `5.3.0`
+2024/12 時点の最新は `5.3.0`
 補助として [C# analyser](https://nsubstitute.github.io/help/nsubstitute-analysers/) と [VB 向けのパッケージ](https://nsubstitute.github.io/help/nsubstitute-analysers/)も存在する
 
 公式サイトの引用
