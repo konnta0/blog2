@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/engineering/test/","noteIcon":"","created":"2024-12-18T01:07:03.548+09:00"}
+{"dg-publish":true,"permalink":"/engineering/test/","metatags":{"og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/ogp.jpeg"},"noteIcon":"","created":"2024-12-18T01:07:03.548+09:00"}
 ---
 
 This is test page!!!
