@@ -32,7 +32,7 @@
 
 {% if metatags %}
     {% for name, content in metatags %}
-        {%-if name and name.startswith("og:")%}
+        {%-if name and slice(0, 3) == "og:" %}
             <meta property="{{ name }}" content="{{ content }}">
         {% else %}
             <meta name="{{ name }}" content="{{ content }}">
