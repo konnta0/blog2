@@ -22,6 +22,23 @@ dg-metatags:
 
 `twitter:card` などの細かい指定内容について[ドキュメント](https://developer.x.com/ja/docs/tweets/optimize-with-cards/guides/getting-started)を参照
 
+このページでは以下のような設定をしている。
+```markdown
+dg-publish: true
+dg-home: false
+dg-metatags:
+ "og:title": "Twitter card の出し方"
+ "og:image": "https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg"
+ "twitter:card": "summary"
+ "twitter:title": "Twitter card の出し方"
+ "twitter:image": "https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg"
+ "twitter:site": "@konnta0"
+```
+
+表示としては以下のようになる。
+![](/img/user/Obsidian/obsidian-digital-garden/Twitter-card.png)
+
+
 ### 蛇足... OGP の対応
 尚、OGP 画像に対応する場合は `og:image` を設定する必要があるが、`dg-metatags` は設定されている key / value で `<meta name="{{ key }}" content="{{ value }}">` で出力されるため本来の OGP の設定上必要な `<meta property...` ではないため、テンプレートの修正が必要そう。
 また、`head` タグに `og: https://ogp.me/ns#` もデフォルトではついていないため、そちらも修正が必要そう。
