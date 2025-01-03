@@ -28,12 +28,8 @@ dg-metatags:
 
 修正箇所は以下 ... 
 #### meta タグの修正箇所
-```embed
-title: "digitalgarden/src/site/_includes/components/pageheader.njk at 1.61.3 · oleeskild/digitalgarden"
-image: "https://opengraph.githubassets.com/fbb27d3a34826145e6685304d279bac70d311afe280f41c808ba6fdc5cea6489/oleeskild/digitalgarden"
-description: "Contribute to oleeskild/digitalgarden development by creating an account on GitHub."
-url: "https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/components/pageheader.njk#L33-L37"
-```
+https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/components/pageheader.njk#L33-L37
+
 雑に修正した感じは以下で動きそうだった
 ```
 {% if metatags %}
@@ -48,16 +44,5 @@ url: "https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/
 ```
 
 #### head タグの修正箇所
-```embed
-title: "digitalgarden/src/site/_includes/layouts/note.njk at 1.61.3 · oleeskild/digitalgarden"
-image: "https://opengraph.githubassets.com/fbb27d3a34826145e6685304d279bac70d311afe280f41c808ba6fdc5cea6489/oleeskild/digitalgarden"
-description: "Contribute to oleeskild/digitalgarden development by creating an account on GitHub."
-url: "https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/layouts/note.njk#L6"
-```
-
-```embed
-title: "digitalgarden/src/site/_includes/layouts/index.njk at 1.61.3 · oleeskild/digitalgarden"
-image: "https://opengraph.githubassets.com/fbb27d3a34826145e6685304d279bac70d311afe280f41c808ba6fdc5cea6489/oleeskild/digitalgarden"
-description: "Contribute to oleeskild/digitalgarden development by creating an account on GitHub."
-url: "https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/layouts/index.njk#L3"
-```
+https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/layouts/note.njk#L6
+https://github.com/oleeskild/digitalgarden/blob/1.61.3/src/site/_includes/layouts/index.njk#L3
