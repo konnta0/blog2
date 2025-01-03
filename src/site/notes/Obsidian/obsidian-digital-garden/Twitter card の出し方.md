@@ -5,7 +5,7 @@
 
 #obsidian #twitter #X #obsidial-digial-garden
 
-
+## 対応方法
 Obsidian の Property に `dg-metatags` を追加して Twitter Card を表示するうえで必要な meta タグを設定していくことで、Twitter card に対応できる。
 
 ```markdown
