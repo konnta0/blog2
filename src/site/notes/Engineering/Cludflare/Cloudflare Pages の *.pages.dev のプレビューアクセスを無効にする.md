@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/engineering/cludflare/cloudflare-pages-pages-dev/","noteIcon":"","created":"2024-12-24T00:27:29.210+09:00"}
 ---
 
-
+#cloudflare 
 ## Cloudflare Access を設定する
 1. `ダッシュボード`から`Workers & Pages` を選択
 2. `Overview` を選択
