@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/engineering/digital-garden/","metatags":{"og:title":"Digital Garden","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Digital Garden","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"noteIcon":"","created":"2024-12-20T02:12:01.547+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/Digital Garden/","metatags":{"og:title":"Digital Garden","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Digital Garden","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"created":"2024-12-20T02:12:01.547+09:00"}
 ---
 
 

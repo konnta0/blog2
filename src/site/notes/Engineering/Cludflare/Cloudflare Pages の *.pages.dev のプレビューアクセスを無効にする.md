@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/engineering/cludflare/cloudflare-pages-pages-dev/","noteIcon":"","created":"2024-12-24T00:27:29.210+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/Cludflare/Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする/","created":"2024-12-24T00:27:29.210+09:00"}
 ---
 
 #cloudflare 

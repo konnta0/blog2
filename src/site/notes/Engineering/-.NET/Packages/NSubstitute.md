@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/engineering/net/packages/n-substitute/","noteIcon":"","created":"2024-12-26T00:50:49.852+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/-.NET/Packages/NSubstitute/","created":"2024-12-26T00:50:49.852+09:00"}
 ---
 
 #dotnet #test #mock

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/engineering/cloudflare-pages-obsidian/","metatags":{"og:title":"Cloudflare Pages と Obsidian でデジタルガーデンを作成する","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Cloudflare Pages と Obsidian でデジタルガーデンを作成する","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"noteIcon":"","created":"2024-12-18T00:45:58.255+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/Cloudflare Pages と Obsidian でデジタルガーデンを作成する/","metatags":{"og:title":"Cloudflare Pages と Obsidian でデジタルガーデンを作成する","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Cloudflare Pages と Obsidian でデジタルガーデンを作成する","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"created":"2024-12-18T00:45:58.255+09:00"}
 ---
 
 
