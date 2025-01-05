@@ -8,4 +8,4 @@
 
 [Obsidian Publishを「デジタルガーデン」として使う](https://goryugo.com/20211014/digital-garden/)
 
-[デジタルガーデンとは何か] (https://hackernoon.com/lang/ja/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
+[デジタルガーデンとは何か](https://hackernoon.com/lang/ja/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
