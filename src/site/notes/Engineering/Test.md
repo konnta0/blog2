@@ -3,6 +3,6 @@
 ---
 
 This is test page!!!!
-[Test](Test.md)
+[[Engineering/Test\|Test]]
 
 ![](/img/user/Engineering/Test.png)
