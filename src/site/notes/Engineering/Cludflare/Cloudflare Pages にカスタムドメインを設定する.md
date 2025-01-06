@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/engineering/cludflare/cloudflare-pages/","dgPassFrontmatter":true,"created":"2024-12-23T00:51:53.862+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/Cludflare/Cloudflare Pages にカスタムドメインを設定する/","dgPassFrontmatter":true,"created":"2024-12-23T00:51:53.862+09:00"}
 ---
 
 #cloudflare #cloudflaredns #dns 
