@@ -51,5 +51,28 @@ $ curl -X 'GET' \
 最小設定で作成をします。パーティション数、バックアップポリシーは後から変更できます。
 ![](/img/user/Engineering/Observability/SigNoz/20240926023502.png)
 
-作成が完了すると`概要ページ`から確認できます。
+作成が完了すると`概要`ページから確認できます。
 ![](/img/user/Engineering/Observability/SigNoz/20240926023656.png)
+
+### Event Hub 用の SAS ポリシーを作成し、接続文字列をコピーする
+Event Hubs Namespace の `エンティティ` -> `Event Hubs` -> 作成した EventHubs を選択-> `設定` -> `共有アクセスポリシー` -> `追加` で新規の SAS ポリシーを追加します。
+Listen ポリシーのみにチェックをつけて作成します。
+![](/img/user/Engineering/Observability/SigNoz/20240926024522.png)
+作成した SAS ポリシーの”接続文字列 – 主キー”(Endpoint=sb://....)の接続文字列をコピーしておきます。
+これは 後述の Central Collector 作成時に利用します。
+参考: https://signoz.io/docs/azure-monitoring/bootstrapping/data-ingestion/
+
+###  Event Hubs への転送設定を行う
+![](/img/user/Engineering/Observability/SigNoz/20241011005624.png)
+
+## Step4 Azure Monitor の受信設定変更
+インフラメトリクスを Central Collector に渡すために Azure Monitor のセットアップを行います。
+参考: https://signoz.io/docs/azure-monitoring/bootstrapping/collector-setup/#azure-monitor-receiver-configuration-1
+
+### アプリの登録
+`アプリの登録`からアプリケーションの登録をします。
+作成時に要求されるリダイレクト URI は空でも構いません。
+後ほどアプリの概要にある `アプリケーション(クライアントID)` , `ディレクトリ (テナント) ID` は利用するので控えておくと良いです。
+
+作成できたら `管理` -> `証明書とシークレット` から `新しいクライアントシークレット` を作成します。
+作成されたシークレットの `値` も後ほど利用するので控えておくと良いです。
