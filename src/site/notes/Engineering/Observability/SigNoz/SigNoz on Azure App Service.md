@@ -5,7 +5,7 @@
 #observability #azure #signoz #appservice
 
 
-Observability ツールの [[SigNoz とは \|SigNoz]] に Azure, AWS, GCP などパブリッククラウドの設定方法についてドキュメントが記載されいて心が高まったので作業ログです。
+Observability ツールの [[Engineering/Observability/SigNoz/SigNoz とは\|SigNoz]] に Azure, AWS, GCP などパブリッククラウドの設定方法についてドキュメントが記載されいて心が高まったので作業ログです。
 
 ## 検証の登場人物
 以下の SizNoz の実装ガイドを元に構築を進めます。
