@@ -16,4 +16,32 @@ Observability ツールの [[SigNoz とは \|SigNoz]] に Azure, AWS, GCP など
 ![](/img/user/Engineering/Observability/SigNoz/20240926025057.png)
 https://signoz.io/docs/azure-monitoring/bootstrapping/strategy/#implementation-guide
 
+# 環境を構築してみる
+以降手順になります。
+Azure の Subscription の作成は省略します。
 
+## Step1 サンプルアプリ(.NET)の作成
+ASP.NET でサンプルアプリを作成します。
+参考: https://opentelemetry.io/docs/languages/net/getting-started/
+
+## Step2 Azure App Service (Web Apps) を作成
+Step1 で作成した ASP.NET のアプリを Azure App Service 上に展開します。
+1. App Service Plan の作成
+	1. 検証用で Plan は Free としています。
+2. Web Apps の作成
+	1. 今回は OS を Windows にしています。
+3. デプロイ出来ているか確認
+```shell
+$ curl -X 'GET' \
+  'https://signoz-azure-b5hgavavexfhemdg.japaneast-01.azurewebsites.net/WeatherForecast' \
+  -H 'accept: text/plain'
+
+[{"date":"2024-09-25","temperatureC":39,"temperatureF":102,"summary":"Hot"},{"date":"2024-09-26","temperatureC":-3,"temperatureF":27,"summary":"Chilly"},{"date":"2024-09-27","temperatureC":40,"temperatureF":103,"summary":"Freezing"},{"date":"2024-09-28","temperatureC":11,"temperatureF":51,"summary":"Chilly"},{"date":"2024-09-29","temperatureC":53,"temperatureF":127,"summary":"Bracing"}]%
+```
+
+## Step3 Azure Event Hubs の作成
+
+### Event Hubs namespace の作成
+今回はサンプルとして動かすだけなので最小構成で作成します。
+価格レベル: Basic, スループットユニット: 1ユニットで作成しました。
+	なお、これらの値に関しては後から変更が可能です。
