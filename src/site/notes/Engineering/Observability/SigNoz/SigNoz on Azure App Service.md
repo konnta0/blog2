@@ -45,3 +45,11 @@ $ curl -X 'GET' \
 今回はサンプルとして動かすだけなので最小構成で作成します。
 価格レベル: Basic, スループットユニット: 1ユニットで作成しました。
 	なお、これらの値に関しては後から変更が可能です。
+
+### Event Hub の作成
+作成した Event Hubs Namesapce のリソースの `+ イベントハブ` から新規の Event Hub を作成します。
+最小設定で作成をします。パーティション数、バックアップポリシーは後から変更できます。
+![](/img/user/Engineering/Observability/SigNoz/20240926023502.png)
+
+作成が完了すると`概要ページ`から確認できます。
+![](/img/user/Engineering/Observability/SigNoz/20240926023656.png)
