@@ -5,7 +5,7 @@
 
 #AzureFunctions #dotnet #macOS
 
-AzureFunctions のプロジェクトを新規に作成してビルドしたときに以下のようなエラーに出くわして解消したので、そのメモです。
+Azure Functions のプロジェクトを新規に作成してビルドしたときに以下のようなエラーに出くわして解消したので、そのメモです。
 
 ### 出くわしたエラー
 ```shell
@@ -25,3 +25,4 @@ https://dotnet.microsoft.com/ja-jp/download
 
 
 参考 issue: https://github.com/dotnet/sdk/issues/27761#issuecomment-1244399021
+(Azure Funcitons が何か悪い訳ではなさそうな雰囲気)
