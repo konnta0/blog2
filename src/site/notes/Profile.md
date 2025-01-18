@@ -27,9 +27,9 @@ Yokohama Kanagawa Japan
 [GitHub](https://github.com/konnta0)
 # Skills
 ## Programing Languages
-C# ★★★★★
-PHP ★★☆☆☆
-Go ★☆☆☆☆
+C# ♥♥♥♥♥
+PHP ♥♥♡♡♡
+Go ♥♡♡♡♡
 
 ## Others
 `ASP.NET Core` `Unity` `Laravel` `WPF` `MySQL` `SQL Server` `Redis` `Cloud Spanner` `BigQuery`
