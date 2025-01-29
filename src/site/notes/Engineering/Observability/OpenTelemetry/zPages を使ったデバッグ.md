@@ -1,0 +1,19 @@
+---
+{"dg-publish":true,"permalink":"/Engineering/Observability/OpenTelemetry/zPages を使ったデバッグ/","dgPassFrontmatter":true,"created":"2025-01-29T03:12:55.830+09:00"}
+---
+
+#opentelemetry #observability 
+zPages を利用することで Collector のリアルタイムの内部状態を確認できます。
+
+```yaml
+extensions:  
+  zpages:  
+    endpoint: 0.0.0.0:55679  
+  
+service:  
+  extensions: [zpages]
+```
+
+zPages にアクセスする
+`http://<collector-host>:55679/debug/tracez`
+![zPages を使ったデバッグ.png](/img/user/Engineering/Observability/OpenTelemetry/zPages%20%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%83%87%E3%83%90%E3%83%83%E3%82%B0.png)

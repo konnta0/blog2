@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Engineering/Cludflare/Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする/","dgPassFrontmatter":true,"created":"2024-12-24T00:27:29.210+09:00"}
+{"dg-publish":true,"dg-home":false,"dg-metatags":{"og:title":"Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Engineering/Cludflare/Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする/","metatags":{"og:title":"Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Cloudflare Pages の *.pages.dev のプレビューアクセスを無効にする","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2024-12-24T00:27:29.210+09:00"}
 ---
 
 #cloudflare 

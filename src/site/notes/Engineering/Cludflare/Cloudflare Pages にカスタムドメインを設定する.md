@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/Engineering/Cludflare/Cloudflare Pages にカスタムドメインを設定する/","dgPassFrontmatter":true,"created":"2024-12-23T00:51:53.862+09:00"}
+{"dg-publish":true,"dg-home":false,"dg-metatags":{"og:title":"Cloudflare Pages にカスタムドメインを設定する","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Cloudflare Pages にカスタムドメインを設定する","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Engineering/Cludflare/Cloudflare Pages にカスタムドメインを設定する/","metatags":{"og:title":"Cloudflare Pages にカスタムドメインを設定する","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Cloudflare Pages にカスタムドメインを設定する","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2024-12-23T00:51:53.862+09:00"}
 ---
+
 
 #cloudflare #cloudflaredns #dns 
 
