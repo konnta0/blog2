@@ -32,8 +32,16 @@ PHP ♥♥♡♡♡
 Go ♥♡♡♡♡
 
 ## Others
-`ASP.NET Core` `Unity` `Laravel` `WPF` `MySQL` `SQL Server` `Redis` `Cloud Spanner` `BigQuery`
-`Azure` `Google Cloud` 
+`ASP.NET Core` 4 years
+`Unity` 4 years
+`Laravel` 2 years
+`MySQL`  6 years
+`SQL Server` 2 years
+`Redis` 6 years
+`Cloud Spanner` 2 years
+`BigQuery` 3 years
+`Azure` 2 years
+`Google Cloud` 2 years
 
 # Development
 | ProjectName                                       | Description                                                        |
