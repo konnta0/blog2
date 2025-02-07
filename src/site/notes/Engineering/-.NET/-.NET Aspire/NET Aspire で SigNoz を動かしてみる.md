@@ -223,7 +223,7 @@ http://localhost:3301/dashboard
 
 > [!tips] トラブルシューティング
 > 
-> [[Engineering/Observability/SigNoz/Troubleshooting\|OpenTelemetry Collector に情報をくれるか試すツール]] で要求が送れてそうか
+> [[Engineering/Observability/SigNoz/SigNoz Troubleshooting\|OpenTelemetry Collector に情報をくれるか試すツール]] で要求が送れてそうか
 [[Engineering/Observability/OpenTelemetry/zPages を使ったデバッグ\|zPages を使って]] OpenTelemetry Collector 側でデータを受信できてそうか
 を、確認するとよいでしょう
 > 
