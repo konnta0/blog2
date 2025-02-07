@@ -197,7 +197,7 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 
 > [!tips]
 > builder.Services.AddOpenTelemetry().WithLogging();  
-> を、 `Program.cs` で呼び出していますが、Aspire プロジェクトをテンプレートから作成した際に実装されている、`ServiceDefaults` プロジェクト内で `UseOtlpExporter` 関数内で `WithLogging()` は呼び出されているのですが、検証時は期待通りの挙動にならなかったため `WithLogging()` を `ApiSerivce` プロジェクト内で呼び出すようにしています。
+> を、 `Program.cs` で呼び出していますが、Aspire プロジェクトをテンプレートから作成した際に実装されている、`ServiceDefaults` プロジェクト内で `UseOtlpExporter` 関数を呼び出しているので内部で `WithLogging()` は呼び出されている(はず、つもり)のですが、検証時は期待通りの挙動にならなかったため `WithLogging()` を `ApiSerivce` プロジェクト内で呼び出すようにしています。
 # 動作確認
 SigNoz のフロントエンドへは `localhost:3301` でアクセスできます。
 .NET Aspire で起動した `webfrontend` サービス(`localhost:5272`) へアクセスして画面を触った後に情報が SigNoz へ送信されているか確認します。
@@ -221,15 +221,9 @@ SigNoz のフロントエンドへは `localhost:3301` でアクセスできま�
 
 
 > [!tips] トラブルシューティング
-> 
-> [[Engineering/Observability/SigNoz/SigNoz Troubleshooting\|OpenTelemetry Collector に情報をくれるか試すツール]] で要求が送れてそうか
-[[Engineering/Observability/OpenTelemetry/zPages を使ったデバッグ\|zPages を使って]] OpenTelemetry Collector 側でデータを受信できてそうか
-を、確認するとよいでしょう
-> 
-> 
-> 
-> 
-> 
+> もし、SigNoz 上で各種データを確認できない場合は、
+> [[Engineering/Observability/SigNoz/SigNoz Troubleshooting\|OpenTelemetry Collector に情報をくれるか試すツール]] で要求が送れているか確認したり
+[[Engineering/Observability/OpenTelemetry/zPages を使ったデバッグ\|zPages を使って]] OpenTelemetry Collector 側でデータを受信できてそうか確認するとよいでしょう。
 
 ---
-ひとまず動くようになったら、`ServiceDefaults` プロジェクトの設定を色々変更したり、カウンター以外のメトリクスを追加し検証してもいいかもしれません。
+
