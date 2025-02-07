@@ -216,7 +216,6 @@ SigNoz のフロントエンドへは `localhost:3301` でアクセスできま�
 ![NET Aspire で SigNoz を動かしてみる-3.png](/img/user/Engineering/-.NET/-.NET%20Aspire/NET%20Aspire%20%E3%81%A7%20SigNoz%20%E3%82%92%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B-3.png)
 
 ## Metrics
-http://localhost:3301/dashboard
 ![NET Aspire で SigNoz を動かしてみる-4.png](/img/user/Engineering/-.NET/-.NET%20Aspire/NET%20Aspire%20%E3%81%A7%20SigNoz%20%E3%82%92%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B-4.png)
 
 
