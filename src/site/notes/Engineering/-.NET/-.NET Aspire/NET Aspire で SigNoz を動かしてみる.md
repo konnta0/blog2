@@ -18,7 +18,7 @@ Log, Trace, Metrics が確認できることがひとまずのゴールとして
 # .NET Aspire プロジェクトを作成
 .NET Aspire のプロジェクトの作成方法は [こちら](https://learn.microsoft.com/ja-jp/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio) を参考に行えば問題ないです。
 # コンテナの起動処理などを作成する
-AppHost のプロジェクトに SigNoz のコンテナを立ち上げる処理を `Program.cs` に追加していきます。
+`AppHost` のプロジェクトに SigNoz のコンテナを立ち上げる処理を `Program.cs` に追加していきます。
 `BindMount` しているファイル群は、[こちら](https://github.com/SigNoz/signoz/blob/v0.68.0/deploy/docker/clickhouse-setup/) を参考にします。
 また、`WithEndpoint`, `WithArgs` などなどの設定については [こちら](https://github.com/SigNoz/signoz/blob/v0.68.0/deploy/docker/clickhouse-setup/docker-compose-minimal.yaml) の compose ファイルを参考にします。
 ```cs
