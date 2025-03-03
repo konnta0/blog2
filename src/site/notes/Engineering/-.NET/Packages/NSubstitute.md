@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/Engineering/-.NET/Packages/NSubstitute/","dgPassFrontmatter":true,"created":"2024-12-26T00:50:49.852+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/-.NET/Packages/NSubstitute/","dgPassFrontmatter":true,"created":"2025-02-28T12:54:55.716+09:00"}
 ---
 
 #dotnet #test #mock
 
 # 概要
-.NET のテスト用のモックライブラリ
+.NET のテスト用のモックライブラリです
 公式サイトはこちら  https://nsubstitute.github.io/
-2024/12 時点の最新は `5.3.0`
-補助として [C# analyser](https://nsubstitute.github.io/help/nsubstitute-analysers/) と [VB 向けのパッケージ](https://nsubstitute.github.io/help/nsubstitute-analysers/)も存在する
+2025/02 時点の最新は `5.3.0` です
+補助として [C# analyser](https://nsubstitute.github.io/help/nsubstitute-analysers/) と [VB 向けのパッケージ](https://nsubstitute.github.io/help/nsubstitute-analysers/)も存在します
 
 公式サイトの引用
 >Don’t sweat the small stuff
@@ -41,8 +41,8 @@ Install-Package NSubstitute.Analyzers.VisualBasic
 > 
 
 # 色々使い方
-サンプルとして `ICalculator` を利用する。
-尚、テストフレームワークは `NUnit` を利用する。
+サンプルとして `ICalculator` を利用します
+尚、テストフレームワークは `NUnit` を利用します
 ```cs
 public interface ICalculator  
 {  
@@ -64,7 +64,7 @@ public void Test1()
 ```
 
 ## モックした関数が呼び出されたか検証する
-`Received`, `DidNotReceived` 関数を利用すると該当の関数(引数含む)が呼び出された否かを検証することができる。また、エラーメッセージとしても説明してくれる
+`Received`, `DidNotReceived` 関数を利用すると該当の関数(引数含む)が呼び出された否かを検証することができる。また、エラーメッセージとしても説明してくれます
 
 ```cs
 [Fact]  
@@ -99,7 +99,7 @@ public void Test3()
 ```
 
 ## argument matching を利用して条件に幅を持たせる
-`Arg.Any` や `Arg.Is` を用いると呼び出した関数の引数に条件を設定できる
+`Arg.Any` や `Arg.Is` を用いると呼び出した関数の引数に条件を設定できます
 ```cs
 [Fact]  
 public void Test4()  
@@ -113,7 +113,7 @@ public void Test4()
 ```
 
 > [!example] tips
->  argument matching と `Returns()` を組み合わせると多くの挙動が再現できる
+>  argument matching と `Returns()` を組み合わせると多くの挙動が再現できます
 
 ```cs
 [Fact]  
