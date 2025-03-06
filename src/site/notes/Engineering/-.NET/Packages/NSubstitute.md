@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Engineering/-.NET/Packages/NSubstitute/","dgPassFrontmatter":true,"created":"2025-02-28T12:54:55.716+09:00"}
+{"dg-publish":true,"permalink":"/Engineering/-.NET/Packages/NSubstitute/","dgPassFrontmatter":true,"created":"2024-12-27T10:06:57.702+09:00"}
 ---
 
 #dotnet #test #mock
