@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/Engineering/-.NET/Packages/NSubstitute/","dgPassFrontmatter":true,"created":"2024-12-27T10:06:57.702+09:00"}
+{"dg-publish":true,"dg-home":false,"dg-metatags":{"og:title":"NSubstitute","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"NSubstitute","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Engineering/-.NET/Packages/NSubstitute/","metatags":{"og:title":"NSubstitute","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"NSubstitute","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-02-28T12:54:55.716+09:00"}
 ---
+
 
 #dotnet #test #mock
 
