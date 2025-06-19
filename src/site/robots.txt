@@ -4,14 +4,14 @@
 User-agent: *
 Allow: /
 
-# 検索エンジンに公開したくないページがある場合
+# Disallow
 Disallow: /admin/
 Disallow: /private/
 Disallow: /draft/
 Disallow: /_includes/
 Disallow: /_data/
 
-# 特定の検索エンジンボット向け設定
+
 User-agent: Googlebot
 Allow: /
 
@@ -28,8 +28,8 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-# サイトマップの場所を指定
+# sitemap
 Sitemap: https://note.konnta0.com/sitemap.xml
 
-# クロール頻度の調整（オプション）
+# crawl options
 Crawl-delay: 1
