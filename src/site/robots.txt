@@ -1,0 +1,35 @@
+# robots.txt for konnta0's Tech Garden
+# Site: https://note.konnta0.com
+
+User-agent: *
+Allow: /
+
+# 検索エンジンに公開したくないページがある場合
+Disallow: /admin/
+Disallow: /private/
+Disallow: /draft/
+Disallow: /_includes/
+Disallow: /_data/
+
+# 特定の検索エンジンボット向け設定
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot  
+Allow: /
+
+# 悪意のあるボット対策
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# サイトマップの場所を指定
+Sitemap: https://note.konnta0.com/sitemap.xml
+
+# クロール頻度の調整（オプション）
+Crawl-delay: 1
