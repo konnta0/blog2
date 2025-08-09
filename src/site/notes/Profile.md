@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Profile/","metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-01-15T00:59:06.507+09:00","updated":"2025-02-03T00:50:02.213+09:00"}
+{"dg-publish":true,"dg-home":true,"dg-metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Profile/","metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-01-15T00:59:06.507+09:00","updated":"2025-08-10T01:37:39.016+09:00"}
 ---
 
 # Summary
@@ -13,7 +13,7 @@ Recently I have been working as a backend engineer, and I am interested in Obser
 ## Name
 Kota Suzuki
 ## Date of birth
-1992-02-04
+1992-02
 ## Location
 Yokohama Kanagawa Japan
 ## CliftonStrengths Top 5
@@ -22,6 +22,9 @@ Yokohama Kanagawa Japan
 3. Harmony
 4. Empathy
 5. Responsibility
+
+## MBTI
+INTJ-A
 ## Social Accounts
 [X(Twitter)](https://x.com/konnta0)
 [GitHub](https://github.com/konnta0)
@@ -32,7 +35,7 @@ PHP ♥♥♡♡♡
 Go ♥♡♡♡♡
 
 ## Others
-`ASP.NET Core` 4 years
+`ASP.NET Core` 5 years
 `Unity` 4 years
 `Laravel` 2 years
 `MySQL`  6 years
@@ -44,8 +47,9 @@ Go ♥♡♡♡♡
 `Google Cloud` 2 years
 
 # Development
-| ProjectName                                       | Description                                                        |
-| ------------------------------------------------- | ------------------------------------------------------------------ |
-| [Errors](https://github.com/konnta0/Errors)       | golang like C# Error(Exception) handler.                           |
-| [Portfolio](https://github.com/konnta0/Portfolio) | My Portfolio site. Written by C# and Blazor.                       |
-| [wabl-cs](https://github.com/konnta0/wabl-cs)     | Web Application Blueprint for C#.This repository is used by study. |
+| ProjectName                                                               | Description                                                                |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Errors](https://github.com/konnta0/Errors)                               | golang like C# Error(Exception) handler.                                   |
+| [Portfolio](https://github.com/konnta0/Portfolio)                         | My Portfolio site. Written by C# and Blazor.                               |
+| [wabl-cs](https://github.com/konnta0/wabl-cs)                             | Web Application Blueprint for C#.This repository is used by study.         |
+| [obsidian-noctis-theme](https://github.com/konnta0/obsidian-noctis-theme) | [Noctis VS Code theme](https://github.com/liviuschera/noctis) for Obsidian |
