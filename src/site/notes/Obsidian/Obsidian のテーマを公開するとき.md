@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Obsidian/Obsidian のテーマを公開するとき/","metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-08-05T00:33:03.562+09:00","updated":"2025-08-10T01:27:19.637+09:00"}
+{"dg-publish":true,"dg-metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Obsidian/Obsidian のテーマを公開するとき/","metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-08-05T00:33:03.562+09:00","updated":"2025-08-10T01:29:47.254+09:00"}
 ---
 
 #obsidian 
@@ -32,15 +32,19 @@ https://github.com/obsidianmd/obsidian-releases
 `screenshot` はテーマのスクリーンショットのパスです。スクリーンショットは 16:9 のアスペクト比で最も見栄えが良くなります。推奨画像サイズ：512 x 288 ピクセル。
 `modes` はテーマがサポートするカラーモードを列挙します。
 
+PR レビューの後問題なければマージされて Obsidian テーマとしてインストールできます。
+(自分の場合は 3 日後くらいでした)
+![Pasted image 20250810012945.png](/img/user/Obsidian/Pasted%20image%2020250810012945.png)
 
-小ネタ
+
+## 小ネタ
 - name に Obsidian や theme の類を設定すると冗長なためエラー扱いにされます。
-![Pasted image 20250806014441.png](/img/user/Pasted%20image%2020250806014441.png)
+![Pasted image 20250806014441.png](/img/user/Obsidian/Pasted%20image%2020250806014441.png)
 
 - スクリーンショットサイズの推奨を無視するとこれまたエラー扱いにされます。
 	- (幅 1000px または 高さ 500px を超えるサイズだとエラー扱いになります。)
 プラグインの一覧として使用されるので 512x288 の画像(README.md などに挿入する画像はサイズ対象外)なので複数画像を用意するといいでしょう。 
-![Pasted image 20250806014546.png](/img/user/Pasted%20image%2020250806014546.png)
+![Pasted image 20250806014546.png](/img/user/Obsidian/Pasted%20image%2020250806014546.png)
 
 
 参考:
