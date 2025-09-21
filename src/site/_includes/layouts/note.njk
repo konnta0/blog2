@@ -6,6 +6,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
   <head prefix="og: https://ogp.me/ns#">
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
+    {%include "components/structured-data.njk"%}
     {% for imp in dynamics.common.head %}
       {% include imp %}
     {% endfor %}

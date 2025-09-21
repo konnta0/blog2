@@ -1,0 +1,63 @@
+{# SEO Meta Tags #}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{# Page Title & Description #}
+<title>{% if title %}{{ title }} | {{ meta.siteName }}{% else %}{{ meta.siteName }}{% endif %}</title>
+<meta name="description" content="{% if description %}{{ description | truncate(160) }}{% else %}{{ meta.siteName }} - A digital garden for technical knowledge and insights{% endif %}">
+
+{# Canonical URL #}
+<link rel="canonical" href="{{ meta.siteBaseUrl }}{{ page.url | url }}">
+
+{# Language #}
+<meta http-equiv="content-language" content="{{ meta.mainLanguage }}">
+<html lang="{{ meta.mainLanguage }}">
+
+{# Author #}
+<meta name="author" content="konnta0">
+
+{# Keywords #}
+{% if tags %}
+<meta name="keywords" content="{% for tag in tags %}{% if tag != 'gardenEntry' and tag !='note' %}{{ tag }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}">
+{% endif %}
+
+{# Robots #}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+{# Open Graph Protocol #}
+<meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}">
+<meta property="og:description" content="{% if description %}{{ description | truncate(160) }}{% else %}{{ meta.siteName }} - A digital garden for technical knowledge and insights{% endif %}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ meta.siteBaseUrl }}{{ page.url | url }}">
+<meta property="og:site_name" content="{{ meta.siteName }}">
+<meta property="og:locale" content="{{ meta.mainLanguage }}_JP">
+{% if ogImage %}
+<meta property="og:image" content="{{ meta.siteBaseUrl }}{{ ogImage }}">
+{% endif %}
+{% if updated %}
+<meta property="article:modified_time" content="{{ updated | dateToZulu }}">
+{% endif %}
+{% if created %}
+<meta property="article:published_time" content="{{ created | dateToZulu }}">
+{% endif %}
+{% if tags %}
+{% for tag in tags %}
+{% if tag != 'gardenEntry' and tag !='note' %}
+<meta property="article:tag" content="{{ tag }}">
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{# Twitter Card #}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}">
+<meta name="twitter:description" content="{% if description %}{{ description | truncate(160) }}{% else %}{{ meta.siteName }} - A digital garden for technical knowledge and insights{% endif %}">
+{% if ogImage %}
+<meta name="twitter:image" content="{{ meta.siteBaseUrl }}{{ ogImage }}">
+{% endif %}
+
+{# RSS Feed #}
+<link rel="alternate" type="application/rss+xml" title="{{ meta.siteName }} RSS Feed" href="{{ meta.siteBaseUrl }}/feed.xml">
+
+{# Sitemap #}
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ meta.siteBaseUrl }}/sitemap.xml">

@@ -3,11 +3,20 @@ permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     {% for page in collections.all %}
+        {% if not page.data.draft and not page.data.private %}
         <url>
             <loc>{{ meta.siteBaseUrl }}{{ page.url | url }}</loc>
             <lastmod>{{ page.date | dateToZulu }}</lastmod>
+            <changefreq>{% if page.url == '/' %}daily{% elif page.data.updated %}weekly{% else %}monthly{% endif %}</changefreq>
+            <priority>{% if page.url == '/' %}1.0{% elif page.data.featured %}0.9{% else %}0.8{% endif %}</priority>
+            {% if meta.mainLanguage %}
+            <xhtml:link rel="alternate" hreflang="{{ meta.mainLanguage }}" href="{{ meta.siteBaseUrl }}{{ page.url | url }}"/>
+            {% endif %}
         </url>
+        {% endif %}
     {% endfor %}
 </urlset>

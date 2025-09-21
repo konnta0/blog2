@@ -1,0 +1,93 @@
+{# JSON-LD Structured Data #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.url == '/' %}WebSite{% else %}BlogPosting{% endif %}",
+  {% if page.url == '/' %}
+  "url": "{{ meta.siteBaseUrl }}",
+  "name": "{{ meta.siteName }}",
+  "description": "A digital garden for technical knowledge and insights",
+  "author": {
+    "@type": "Person",
+    "name": "konnta0"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ meta.siteBaseUrl }}/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+  {% else %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ meta.siteBaseUrl }}{{ page.url | url }}"
+  },
+  "headline": "{% if title %}{{ title | replace('"', '\\"') }}{% else %}{{ page.fileSlug | replace('"', '\\"') }}{% endif %}",
+  {% if description %}
+  "description": "{{ description | truncate(160) | replace('"', '\\"') }}",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "konnta0"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ meta.siteName }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ meta.siteBaseUrl }}/favicon.svg"
+    }
+  },
+  {% if created %}
+  "datePublished": "{{ created | dateToZulu }}",
+  {% endif %}
+  {% if updated %}
+  "dateModified": "{{ updated | dateToZulu }}",
+  {% endif %}
+  {% if ogImage %}
+  "image": "{{ meta.siteBaseUrl }}{{ ogImage }}",
+  {% endif %}
+  "wordCount": {{ content | striptags | wordcount | default(0) }},
+  {% if tags %}
+  "keywords": [{% for tag in tags %}{% if tag != 'gardenEntry' and tag !='note' %}"{{ tag }}"{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}],
+  {% endif %}
+  "inLanguage": "{{ meta.mainLanguage }}"
+  {% endif %}
+}
+</script>
+
+{# Breadcrumb Schema #}
+{% if page.url != '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ meta.siteBaseUrl }}"
+    }
+    {% if page.url contains '/notes/' %}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Notes",
+      "item": "{{ meta.siteBaseUrl }}/notes"
+    }
+    {% endif %}
+    {% if title %}
+    ,{
+      "@type": "ListItem",
+      "position": {% if page.url contains '/notes/' %}3{% else %}2{% endif %},
+      "name": "{{ title | replace('"', '\\"') }}",
+      "item": "{{ meta.siteBaseUrl }}{{ page.url | url }}"
+    }
+    {% endif %}
+  ]
+}
+</script>
+{% endif %}

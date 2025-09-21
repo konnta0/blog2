@@ -33,3 +33,6 @@ Sitemap: https://note.konnta0.com/sitemap.xml
 
 # crawl options
 Crawl-delay: 1
+
+# Cache Policy
+Cache-Control: max-age=7200
