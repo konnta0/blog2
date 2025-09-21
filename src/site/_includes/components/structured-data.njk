@@ -49,7 +49,6 @@
   {% if ogImage %}
   "image": "{{ meta.siteBaseUrl }}{{ ogImage }}",
   {% endif %}
-  "wordCount": {{ content | striptags | wordcount | default(0) }},
   {% if tags %}
   "keywords": [{% for tag in tags %}{% if tag != 'gardenEntry' and tag !='note' %}"{{ tag }}"{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}],
   {% endif %}
@@ -71,7 +70,7 @@
       "name": "Home",
       "item": "{{ meta.siteBaseUrl }}"
     }
-    {% if page.url contains '/notes/' %}
+    {% if '/notes/' in page.url %}
     ,{
       "@type": "ListItem",
       "position": 2,
@@ -82,7 +81,7 @@
     {% if title %}
     ,{
       "@type": "ListItem",
-      "position": {% if page.url contains '/notes/' %}3{% else %}2{% endif %},
+      "position": {% if '/notes/' in page.url %}3{% else %}2{% endif %},
       "name": "{{ title | replace('"', '\\"') }}",
       "item": "{{ meta.siteBaseUrl }}{{ page.url | url }}"
     }
