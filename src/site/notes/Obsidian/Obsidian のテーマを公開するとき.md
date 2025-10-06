@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Obsidian/Obsidian のテーマを公開するとき/","metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-08-05T00:33:03.562+09:00","updated":"2025-08-10T01:29:47.254+09:00"}
+{"dg-publish":true,"dg-metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Obsidian/Obsidian のテーマを公開するとき/","metatags":{"og:title":"Obsidian のテーマを公開するとき","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Obsidian のテーマを公開するとき","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-08-15T10:45:20.009+09:00","updated":"2025-08-15T10:45:20.009+09:00"}
 ---
 
 #obsidian 
@@ -39,7 +39,7 @@ PR レビューの後問題なければマージされて Obsidian テーマと�
 
 ## 小ネタ
 - name に Obsidian や theme の類を設定すると冗長なためエラー扱いにされます。
-![Pasted image 20250806014441.png](/img/user/Obsidian/Pasted%20image%2020250806014441.png)
+![Obsidian のテーマを公開するとき.png](/img/user/Obsidian/Obsidian%20%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E5%85%AC%E9%96%8B%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D.png)
 
 - スクリーンショットサイズの推奨を無視するとこれまたエラー扱いにされます。
 	- (幅 1000px または 高さ 500px を超えるサイズだとエラー扱いになります。)
