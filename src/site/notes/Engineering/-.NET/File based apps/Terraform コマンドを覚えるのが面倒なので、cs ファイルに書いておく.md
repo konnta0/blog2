@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":false,"dg-metatags":{"og:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Engineering/-.NET/File based apps/Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく/","metatags":{"og:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-12-17T01:30:12.161+09:00","updated":"2025-12-22T00:47:45.836+09:00"}
+{"dg-publish":true,"dg-home":false,"dg-metatags":{"og:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Engineering/-.NET/File based apps/Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく/","metatags":{"og:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Terraform コマンドを覚えるのが面倒なので、cs ファイルに書いておく","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"dgPassFrontmatter":true,"created":"2025-12-17T01:30:12.161+09:00","updated":"2025-12-23T00:42:25.830+09:00"}
 ---
 
 #csharp #dotnet #IaC #Terrafom 
@@ -15,6 +15,7 @@ Tf.cs
 
 using ConsoleAppFramework;
 using Zx;
+using Cysharp.Diagnostics;
 
 var app = ConsoleApp.Create();
 app.Add<TerraformCommands>();
@@ -96,7 +97,8 @@ public sealed class TerraformCommands
             args += $" {planFile}";
         }
 
-        await args;
+        await ProcessX.StartAsync(args).WriteLineAllAsync();
+
         Console.WriteLine("✅ Apply completed successfully");
     }
 
@@ -111,7 +113,8 @@ public sealed class TerraformCommands
         var args = "terraform destroy";
         if (autoApprove) args += " -auto-approve";
 
-        await args;
+        await ProcessX.StartAsync(args).WriteLineAllAsync();
+
         Console.WriteLine("✅ Destroy completed");
     }
 
