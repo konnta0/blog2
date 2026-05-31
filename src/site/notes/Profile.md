@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Profile/","metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-01-15T00:59:06.507+09:00","updated":"2025-08-10T01:47:43.072+09:00"}
+{"dg-publish":true,"dg-home":true,"dg-metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Profile/","metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2026-01-05T01:46:01.000+09:00","updated":"2026-06-01T01:53:05.905+09:00"}
 ---
 
 # Summary
@@ -49,7 +49,9 @@ Go ♥♡♡♡♡
 # Development
 | ProjectName                                                               | Description                                                                |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Aspire.Extensions](https://github.com/konnta0/Aspire.Extensions)         | A collection of community extensions for .NET Aspire.|
+| [ZenohDotNet](https://github.com/konnta0/ZenohDotNet)                     | C# bindings for [Zenoh](https://zenoh.io/) distributed messaging system with embedded runtime and Unity support.|
 | [Errors](https://github.com/konnta0/Errors)                               | golang like C# Error(Exception) handler.                                   |
-| [Portfolio](https://github.com/konnta0/Portfolio)                         | My Portfolio site. Written by C# and Blazor.                               |
 | [wabl-cs](https://github.com/konnta0/wabl-cs)                             | Web Application Blueprint for C#.This repository is used by study.         |
 | [obsidian-noctis-theme](https://github.com/konnta0/obsidian-noctis-theme) | [Noctis VS Code theme](https://github.com/liviuschera/noctis) for Obsidian |
+| [obsidian-noctis-viola-theme](https://github.com/konnta0/obsidian-noctis-viola-theme) | [Noctis VS Code theme](https://github.com/liviuschera/noctis) for Obsidian(viola) |
