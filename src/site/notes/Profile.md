@@ -1,17 +1,15 @@
 ---
-{"dg-publish":true,"dg-home":true,"dg-metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Profile/","metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2026-01-05T01:46:01.000+09:00","updated":"2026-06-01T01:53:05.905+09:00"}
+{"dg-publish":true,"dg-home":true,"dg-metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"permalink":"/Profile/","metatags":{"og:title":"Profile","og:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:card":"summary","twitter:title":"Profile","twitter:image":"https://raw.githubusercontent.com/konnta0/blog2/refs/heads/main/konnta0.jpg","twitter:site":"@konnta0"},"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2026-01-05T01:46:01.000+09:00","updated":"2026-06-28T00:53:43.712+09:00"}
 ---
 
 # Summary
-Hello! I'm
-Kota Suzuki.  I'm working under the account konnta0.
+Hello!  I'm working under the account konnta0.
 (Frontend/Backend) Application Engineer
 I like C#. I'm also interested in Microsoft Azure, which has a high affinity with C #.
 Recently I have been working as a backend engineer, and I am interested in Observability.
 
 # General
-## Name
-Kota Suzuki
+
 ## Date of birth
 1992-02
 ## Location
